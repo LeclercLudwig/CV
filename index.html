@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Template</title>
+	<link rel="stylesheet" type="text/css" 	href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+</head>
+<style>
+	body{
+		background: rgb(225, 227, 228);
+	}
+	nav{
+		height: 4em;
+	}
+	#name_title{
+		background-image: url('img/name_title.jpg');
+		background-position: 0cm;
+		height: 5em;
+	}
+	
+</style>
+
+<body>
+	<section class="text-center" id="name_title"><br><h1 class="text-light">LECLERC Ludwig</h1></section>
+	<nav class="navbar navbar-expand-sm bg-dark navbar-light border-bottom border-bottom-5 border-secondary shadow p-4 mb-4">
+		<h1 class="mx-auto h5 text-light">Développeur web</h1>
+	</nav>
+	<div class="col-lg-8 bg-light mx-auto rounded shadow p-4 mb-4">
+		<div class="row mx-auto">
+			<div class="col-sm-4">
+				<div  style="background-color:rgb(240, 240, 240)" class="col-sm-12 shadow p-4 mb-4">
+					<strong><p><img style="width: 10%; max-width: 10%;" src="https://cdn-icons-png.flaticon.com/512/684/684818.png"> 15 rue sauvaire, 13140 MIRAMAS</p>
+					<p>ludwig.leclerc22@ gmail.com</p>
+					<p><img style="width: 10%; max-width: 10%;" src="https://cdn-icons-png.flaticon.com/512/9375/9375142.png">06.52.96.01.58</p></strong>
+				</div>
+				<div style="background-color:rgb(240, 240, 240)" class="col-sm-12 shadow p-4 mb-4 text-center">
+					<strong>Certification</strong>
+					<p> - Titre Pro vendeur conseil en magasin</p>
+					<p>- BAC pro ELEEC</p>
+					<P>- Sauveteur secouriste du travail</P>
+				</div>
+			</div>
+			<div style="background-color:rgb(240, 240, 240)" class="align-end col-md-5 shadow p-4 card mx-auto">
+				<ul class="pagination mx-auto">
+					<li class="page-item"><button id="bouton1" class="page-link">Compétences</button></li>
+					<li class="page-item"><button id="bouton2" class="page-link">expériences</button></li>
+					<li class="page-item"><button id="bouton3" class="page-link">Hobbies</button></li>
+				  </ul>
+				 <div id="competences"> 
+					<p  class="text-center"><strong>compétences</strong></p>
+					<p class="text-center">HTML5</p>
+					<p class="text-center">CSS3</p>
+					<p class="text-center">Bootstrap</p>
+					<p class="text-center">Javasript</p>
+					<p class="text-center">Angular</p>
+				</div>
+				<div id="experiences" style="display: none">
+					<p  class="text-center"><strong>Expériences - 3 ans de commerce</strong></p>
+					<p class="text-center">Gémo</p>
+					<p class="text-center">Easy Cash</p>
+					<p class="text-center">Maxi Zoo</p>
+					<p class="text-center">Stokomani</p>
+					<p class="text-center">Action</p>
+					<p  class="text-center"><strong>Expériences - 2 mois</strong></p>
+					<p class="text-center">Burger King</p>
+				</div>
+				<div id="hobbies" style="display: none">
+					<p  class="text-center"><strong>Hobbies</strong></p>
+					<p class="text-center">Jeu vidéo</p>
+					<p class="text-center">Manga</p>
+					<p class="text-center">Anime</p>
+				</div>		
+			</div>
+		</div>
+	</div>
+	<script src="js/bouton.js"></script>
+</body>
+</html>							
