@@ -1,0 +1,17 @@
+body{
+    background: rgb(225, 227, 228);
+}
+nav{
+    height: 4em;
+}
+#name_title{
+    background-image: url('../img/name_title.jpg');
+    background-position: 0cm;
+    height: 5em;
+}
+
+@media only screen and (max-width: 900px) {
+    body {
+      background-color: lightblue;
+    }
+  }
