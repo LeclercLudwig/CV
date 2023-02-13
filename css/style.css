@@ -1,26 +1,44 @@
+html{
+    width: 100%;
+}
 body{
     background: rgb(225, 227, 228);
+    height: 100%;
+    min;
 }
+p{
+    font-family: arial;
+}
+.nom{
+   
+}
+
 nav{
-    height: 4em;
+ 
 }
 #name_title{
     background-image: url('../img/name_title.jpg');
     background-position: 0cm;
     height: 5em;
+    width: 100%;
+    margin: 0px;
+    display: inline-block;
+    top: 0%;
+    
 }
 .container_Princip{
     display: flex;
     flex-direction: column;
     align-items: center;
-    ;
+    
 }
 h1{
-    font-size: 30px;
+    font-size: 40px;
     color:white;
     text-align: center;
     font-family: Arial;
 }
+
 
 @media only screen and (min-width: 640px){
 
