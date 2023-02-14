@@ -1,12 +1,16 @@
+
+h1{
+    2em
+}
 body{
     background: rgb(225, 227, 228);
     margin: 0%;
+    
 }
 
 p{
     font-family: arial;
 }
-
 
 #name_title{
     background-image: url('../img/name_title.jpg');
@@ -28,11 +32,20 @@ p{
    font-size: 1.5em;
 }
 .container_Princip{
+    border: 1px black solid;
     display: flex;
     flex-direction: column;
     align-items: center;
     
 }
+
+.container_Princip > div {
+
+        width: auto;
+        height: auto;
+
+}
+
 h1{
     font-size: 40px;
     color:white;
@@ -41,15 +54,29 @@ h1{
 }
 
 
-@media only screen and (min-width: 640px){
+@media only screen and (min-width: 640px)
+
+{
 
     .container_Princip{
         display: flex;
         align-items: center;
     }
-    .info{
-        width: 500px;
-        height: 200px;
+    .container_Princip > div{
+
+        height: 200px ;
+        width: 500px ;
+        
         margin-bottom: 10px;
     }
+
+}
+@media only screen and (max-width: 339px)
+
+{
+
+    h1{
+        font-size: 1.2em;
+    }
+    
 }
